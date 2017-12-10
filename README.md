@@ -6,3 +6,5 @@ The single tmeperature program runs the molecular dynamics for a single temperat
 The many temperatures program runs with three command line arguments: initial temperature, final temperature and temperature step size. The single temperature program runs with two command line arguments: inintial temperature and number of time steps.
 
 MD_plot.py is used to create the plots used in the project. The program runs by reading directory containing temp_diff_x.txt files, start x, final x and x spacing. It then produces the 4 graphs used in the project. For example it can be run as: python MD_plot.py /Data/ 100 900 10
+
+The Data folder contains two example argon_xx.xyz files. These can be used in Ovito to see how the atoms move in the program.
